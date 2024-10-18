@@ -123,6 +123,37 @@
 
 				<div class="row-fluid">
 					<div class="span4" style="margin-bottom: 2em;">
+						<a href="http://geometrylearning.com/DreamUDF">
+							<img class="dropshadow" alt="" src="./files/project_teaser/siga24_dreamudf.png" width="300" height="150">
+						</a>
+					</div>
+					<div class="span8">
+						<a href="http://geometrylearning.com/DreamUDF">
+							<strong>DreamUDF: Generating Unsigned Distance Fields from A Single Image</strong>
+						</a>
+						<br>
+							<b>Yu-Tao Liu, Xuan Gao, Weikai Chen, Jie Yang, <b>Xiaoxu Meng</b>, Bo Yang, Lin Gao
+						<br>
+						<em> <b>SIGGRAPH Asia 2024</b></em>
+						<br>
+						<em>"a SDF-based differentiable rendering method that reconstructs arbitrary surfaces from multiview images"</em>
+						<br>
+						<ul class="inline middot">
+							<li><em class="fa fa-file"></em> <a href="http://128.84.21.203/abs/2303.12012">paper</a></li>
+							<li><em class="fa fa-file"></em> <a href="https://xmeng525.github.io/xiaoxumeng.github.io/projects/cvpr23_neat">website</a></li>
+							<li><em class="fa fa-file"></em> <a href="https://github.com/xmeng525/NeAT">code</a></li>
+							<li><em class="fa fa-file"></em> <a href="https://youtu.be/GQNaW8GZOsM">video</a></li>
+							<li>
+								<em class="fa fa-bars"></em>
+								<a class="toggle_text_link" onclick="javascript:toggle(neat);">abstract</a>
+								<pre id="neat" class="invisible_text">Recent advances in diffusion models and neural implicit surfaces have shown promising progress in generating 3D models. However, existing generative frameworks are limited to closed surfaces, failing to cope with a wide range of commonly seen shapes that have open boundaries. In this work, we present DreamUDF, a novel framework for generating high-quality 3D objects with arbitrary topologies from a single image. To address the challenge of generating proper topology given sparse and ambiguous observations, we propose to incorporate both the data priors from a multi-view diffusion model and the geometry priors brought by an unsigned distance field (UDF) reconstructor. In particular, we leverage a joint framework that consists of 1) a generation module that produces a neural radiance field for photorealistic renderings from arbitrary views; and 2) a reconstruction module that distills the learnable radiance field into surfaces with arbitrary topologies. We further introduce a field coupler that bridges the radiance field and UDF under a novel optimization scheme. This allows the two modules to mutually boost each other during training. Extensive experiments and evaluations demonstrate that DreamUDF achieves high-quality reconstruction and robust 3D generation on both closed and open surfaces with arbitrary topologies, compared to the previous works.</pre> <!-- put </pre> on this line to avoid new unwanted line breaks after bibtex -->
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row-fluid">
+					<div class="span4" style="margin-bottom: 2em;">
 						<a href="https://xmeng525.github.io/xiaoxumeng.github.io/projects/cvpr23_neat">
 							<img class="dropshadow" alt="" src="./files/project_teaser/neat.jpg" width="300" height="150">
 						</a>
@@ -136,7 +167,7 @@
 						<br>
 						<em> <b>CVPR 2023</b></em>
 						<br>
-						<em>"a SDF-based differentiable rendering method that reconstructs arbitrary surfaces from multiview images"</em>
+						<em>"a 3D generative model that can generate shapes with arbitrary topologies, including open surfaces"</em>
 						<br>
 						<ul class="inline middot">
 							<li><em class="fa fa-file"></em> <a href="http://128.84.21.203/abs/2303.12012">paper</a></li>
